@@ -1,4 +1,4 @@
-const socket = io('https://test-4e7w.vercel.app/')
+const socket = io('https://test-4e7w.vercel.app:3000')
 const messageContainer = document.getElementById('message-container')
 const messageForm = document.getElementById('send-container')
 const messageInput = document.getElementById('message-input')
